@@ -38,10 +38,26 @@ sidebar{
 #side-div{
     min-height: 60%;
     display: grid;
-    grid-template: 2fr 7fr 3fr/ 1fr;
+    grid-template: 2fr 6fr 3fr/ 1fr;
 }
 
 .side-item{
     margin: 15px;
     margin-left: 25px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
+
+#side-actions a, #side-actions .material-icons, #side-settings a, #side-settings .material-icons {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#side-header h1, #side-header .material-icons{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+
