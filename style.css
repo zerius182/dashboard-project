@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+:root{
+    --project-blue: rgba(25,146,212,255);
+    --main-background: rgba(226,232,240,255);
+}
+
 .container{
     display: grid;
     grid-template: repeat(5, 1fr)/ repeat(5, 1fr);
@@ -12,20 +17,22 @@
 }
 
 .sidebar{
-    background-color: aqua;
+    background-color: var(--project-blue);
     grid-column: 1/ 2;
     grid-row: 1 / 7;
     color: white;
 }
 
 .header{
-    background-color: red;
     grid-column: 2 / 7;
     grid-row: 1/ 2;
 }
 
 .content{
-    background-color: blueviolet;
+    background-color: var(--main-background);
     grid-column: 2/ 7;
     grid-row: 2/7;
+}
+.side-item{
+    
 }
