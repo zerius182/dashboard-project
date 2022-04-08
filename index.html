@@ -12,18 +12,17 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
 
-
 </head>
 <body>
     <div class="container">
-        <sidebar>
+        <div id="sidebar">
             <div id="side-div">
                 <div class="side-cont" id="side-head-container">
                     <div class="side-item" id="side-header">
                         <span class="material-icons">
                             admin_panel_settings
                         </span>
-                        <h1>Admin Panel</h1>
+                        <h1>Dashboard</h1>
                     </div>
                 </div>
 
@@ -88,7 +87,7 @@
                 </div>
             </div>
 
-        </sidebar>
+        </div>
         <header>
             <div id="header-div">
                 <div id="header-top-half" class="header-cont">
@@ -123,8 +122,12 @@
             </div>
         </header>
         <main class="content">
-            <div id="project-container"></div>
-            <div id="announcement-container"></div>
+            <div id="project-container" class="content-interior">
+                <h3>Projects</h3>
+            </div>
+            <div id="announcement-container" class="content-interior">
+                <h3>Announcements</h3>
+            </div>
         </main>
     </div>
 </body>
