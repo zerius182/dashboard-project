@@ -9,8 +9,10 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
         </style>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+
 </head>
 <body>
     <div class="container">
@@ -90,15 +92,32 @@
         <header>
             <div id="header-div">
                 <div id="header-top-half" class="header-cont">
-                    <p><span class="material-icons">
-                        search
-                    </span></p>
-                    <input type="search" name="search" id="search">
+                    <div id="top-left">
+                        <p><span class="material-icons">
+                            search
+                        </span></p>
+                        <input type="search" name="search" id="search">
+                    </div>
+                    <div id="top-right">
+                        <p><span class="material-icons-outlined">
+                            notifications
+                        </span></p>
+                        <img src="/images/profile-pic.jpg" alt="Zerius" id="small-profile">
+                        <h2>Garry Joynes</h2>
+                    </div>
                 </div>
-                <div id="header-bottom-half" class="header-cont"></div>
+                <div id="header-bottom-half" class="header-cont">
+                    <div id="bottom-left">
+                        <img src="/images/profile-pic.jpg" alt="Profile pic" id="profile-large">
+                        <div id="greeting">
+                            <p>Hello There</p>
+                            <h2>Garry Joynes (@Zerius)</h2>
+                        </div>
+                    </div>
+                </div>
             </div>
         </header>
-        <main class="content"><p>Main Content</p></main>
+        <main class="content"></main>
     </div>
 </body>
 </html>
