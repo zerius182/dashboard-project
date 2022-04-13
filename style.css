@@ -15,17 +15,18 @@
 .container{
     display: grid;
     grid-template: repeat(5, 1fr)/ repeat(5, 1fr);
-    min-height: 100vh;
+    max-height: 100vh;
     width: 100vw;
 }
 
 #sidebar{
     background-color: var(--project-blue);
     grid-column: 1/ 2;
-    grid-row: 1 / 7;
+    grid-row: 1 / 6;
     color: white;
     
 }
+
 
 header{
     grid-column: 2 / 7;
@@ -35,7 +36,7 @@ header{
 .content{
     background-color: var(--main-background);
     grid-column: 2/ 7;
-    grid-row: 2/7;
+    grid-row: 2/6;
     display:  flex;
 }
 
@@ -172,17 +173,10 @@ button :hover{
     cursor: pointer;
 }
 
-#project-container{
-    width: 70%;
-    height: 100%;
-    padding-left: 20px;
-}
-
-#announcement-container{
-    width: 30%;
-    height: 100%;
-}
-
 .content-interior h3{
     margin-top: 20px;
+}
+
+.content-interior{
+    border:2px solid red;
 }
