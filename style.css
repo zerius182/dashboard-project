@@ -192,6 +192,11 @@ header{
     margin-right: 40px;
 }
 
+.project-interior .icons{
+    margin: 20px 20px 0px 65%;
+    letter-spacing: 1em;
+    cursor: pointer;
+}
 #project-container{
     display: grid;
     grid-template-columns: 2fr 2fr;
