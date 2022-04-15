@@ -219,4 +219,21 @@ header{
 .announcement-interior{
     background-color: white;
     border-radius: 5px;
+    border-right: 15px solid var(--project-blue);
+}
+
+.announcement-interior h4{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.announcement-interior p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.announcement-interior a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
 }
