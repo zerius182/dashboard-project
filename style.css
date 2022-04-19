@@ -115,7 +115,7 @@ header{
     justify-content: space-between;
 }
 
-#small-profile{
+.small-profile{
     width: 15%;
     border-radius: 50px;
 }
@@ -236,4 +236,16 @@ header{
     text-decoration: none;
     color: black;
     font-weight: 600;
+}
+
+.announcement-div{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+#announcements2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
