@@ -249,3 +249,7 @@ header{
     flex-direction: column;
     justify-content: space-evenly;
 }
+
+#announcements2 a{
+    margin-left: 1rem;
+}
